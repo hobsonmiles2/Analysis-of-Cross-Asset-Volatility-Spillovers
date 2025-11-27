@@ -22,7 +22,7 @@ Analysis of volatility spillovers across equities, bonds, commodities, and ESG a
 
 ## Key Findings
 - Equities and ESG equities act as volatility transmitters
-- Treasuries and gold serve as receivers/safe havens
+- Treasuries and gold serve as receivers/safe havens, but display weaker safe-haven tendencies within crises, often transmitting volatility.
 - Spillovers intensify during crises (GFC, COVID-19, 2022 energy shock)
 - ML models provide statistically significant but modest forecasting improvements
 

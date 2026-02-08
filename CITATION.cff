@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Hobson"
+    given-names: "Miles"
+title: "Cross-Asset Volatility Spillover Analysis"
+version: 1.0.0
+date-released: 2025-02-08
+url: "https://github.com/YOUR_USERNAME/Analysis-of-Cross-Asset-Volatility-Spillovers"
+license: MIT
+type: software
+keywords:
+  - volatility spillovers
+  - GARCH
+  - DCC
+  - Diebold-Yilmaz
+  - regime switching
+  - machine learning
+  - financial econometrics
+  - cross-asset analysis
+abstract: >
+  Analysis of volatility spillovers across equities, bonds, commodities,
+  and ESG assets (2005-2025) using GARCH-DCC models, Diebold-Yilmaz
+  spillover indices, regime-switching analysis, and machine learning
+  forecasting with XGBoost and LightGBM.

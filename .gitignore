@@ -205,3 +205,47 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project-specific
+
+# Data files - exclude raw downloads but keep processed outputs for reproducibility
+data/raw/*.csv
+data/raw/*.parquet
+
+# Keep directory structure but ignore contents
+data/raw/.gitkeep
+data/processed/.gitkeep
+data/metadata/.gitkeep
+
+# Large model files
+*.pkl
+*.h5
+*.joblib
+
+# Jupyter Notebook outputs and checkpoints
+*-checkpoint.ipynb
+.ipynb_checkpoints/
+
+# Output files - keep small summaries, ignore large artifacts
+# Images and plots
+outputs/**/*.png
+outputs/**/*.pdf
+outputs/**/*.jpg
+outputs/**/*.jpeg
+
+# Model files
+outputs/**/*.txt
+outputs/**/*.json
+outputs/**/*.joblib
+
+# Large data files
+outputs/**/shap_*
+outputs/**/plots/
+outputs/**/xgb_*
+outputs/**/lgbm_*
+
+# Keep small summary CSVs (exceptions to above rules)
+!outputs/**/summary*.csv
+!outputs/**/metrics*.csv
+!outputs/spillovers/spillover_indices*.csv
+!outputs/spillovers/spillover_table*.csv
